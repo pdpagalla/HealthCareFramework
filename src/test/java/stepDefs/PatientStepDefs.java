@@ -1,13 +1,13 @@
 package stepDefs;
 
-import PatientPages.PatientModulePage;
+import pageObjects.PatientPages.PatientModulePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import utilities.BrowserFactory;
 
 
-public class PatientStepDefs extends StepDefinitions {
+public class PatientStepDefs extends BrowserFactory {
 
     PatientModulePage patientModulePage;
 
